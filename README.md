@@ -16,7 +16,7 @@ setInterval(()=>{answers[answers.length-1].scrollIntoView();
 
 fun();
 
-},1000);
+},10);
 
 
 var fun = ()=>{
