@@ -1,6 +1,13 @@
 # QuoraUpvoteCount
 JavaScript Script to count upvotes of any person
-Just paste this code in the console window of the person.
+
+# Steps 
+1. Open persons quora profile in the chrome browser
+2. Paste the below code in the console window of the browser tab. (press CTRL+SHIFT+I)
+
+# You are done. Now you can see the upvotes count of the person in the console. 
+
+
 
 ``` 
 var answers = document.getElementsByClassName('feed_item inline_expand_item')
@@ -34,4 +41,4 @@ count+=Number.parseInt(upvoteString)
 
 console.log("Upvote count of  "+ answers.length +" questions are " +count);
 
-}```
+}
